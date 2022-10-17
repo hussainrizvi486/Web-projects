@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Righteous&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightseagreen;
+    width: 100%;
+}
+
+#top-h{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    display: inline;
+}
+
+
+
+/* Vertical NAVBAR */
+
+.vertical-nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(20, 108, 73, .8);
+    position: fixed;
+    display: none;
+}
+
+.vertical-nav h1{
+    margin: 1% 2%;
+    font-size: x-large;
+    color: rgb(154, 255, 154);
+}
+
+
+#menu{
+    margin: 1% 2%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+
+#menu img{
+    width: 20%;
+    padding-right: 3%;
+}
+
+.slider-go{
+    transform: translateY(-600px);
+    transition: ease-out 300ms;
+}
+
+.slider{
+    height: auto;
+    width: 100%;
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(36, 106, 73, .8);
+    transition: ease-in 300ms;
+}
+.slider li{
+    list-style: none;
+    padding: 2% 0%;
+}
+
+.slider li a{
+    color: white;
+}
+
+/* Vertical NAVBAR ENDS */
+
+
+
+
+/* Horizontal NAVBAR */
+
+.horizontal-nav{
+    width: 100%;
+    background-color: rgba(20, 108, 73, .8);
+    position: fixed;
+    height: 10vh;
+}
+
+.horizontal-nav nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-nav nav h1 {
+    margin: .8% 2%;
+    font-size: xx-large;
+    color: rgb(154, 255, 154);
+}
+
+.horizontal-nav nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-nav ul li {
+    list-style: none;
+}
+
+.horizontal-nav li a {
+    text-decoration: none;
+    padding:0% 1rem;
+    font-family: 'Righteous', cursive;
+    color: #ffff;
+}
+
+/* Horizontal NAVBAR ENDS */
+
+
+
+
+/*
+ Page 0 
+*/
+
+.pg-0{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    background: url("https://images.pexels.com/photos/967420/pexels-photo-967420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") 100%;
+    background-size: cover;
+}
+
+.pg-0-content{
+    width: 80vw;
+    padding-top: 20%;
+    margin: 0%;
+}
+
+
+
+main{
+    height: auto;
+    background-color: greenyellow;
+}
+
+
+/*
+ Page 0 ENDS 
+*/
+
+
+
+
+/*
+Page 01 
+*/
+
+.pg-01{
+    height: 100vh;
+    background-color: #fff;
+    width: 100%;
+}
+
+.pg-01 h1{
+    padding: 2% 6% ;
+    font-size: 1.5rem;
+    color: rgb(0, 36, 0);
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.m-y{
+    margin-top: 3%;
+}
+
+
+.rectangle-box{
+    width: 20%;
+    height: auto;
+    padding: .5rem;
+    text-align: left;
+}
+
+.rectangle-box img{
+    height: 55vh;
+    width: 20vw;
+    padding-top: 8%;
+}
+
+.rectangle-box h2{
+    font-size: 1.2rem;
+}
+
+.rectangle-box p{
+    font-size: small;
+    padding-top: 4%;
+}
+
+/*
+Page 1 ENDS 
+*/
+
+/*###################################################
+###################################################*/
+
+/*
+ Page 2
+*/
+
+.pg-02{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: url("https://cdn.pixabay.com/photo/2016/11/14/04/36/boy-1822614_960_720.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+#pg-02-heading{
+    margin: 5% 2%;
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+.box{
+    margin: 25% 4%;
+    width: 30vw;
+    height: 35vh;
+    padding: 1rem;
+    border: 4px solid #83F14F;
+    color: #fff
+}
+.box h1{
+    color: #83F14F ;
+    padding-bottom: 6%;
+}
+.box p{
+    text-align: right;
+}
+
+/*
+Page 2 ENDS 
+*/
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    background-color: #146c49;
+    padding: 2rem 1.2rem;
+}
+
+.footer-about{
+    color: #fff;
+}
+
+.footer-content{
+    width: 40vw;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .horizontal-nav {
+        display: none;
+    }
+
+    .vertical-nav{
+        display: flex ;
+    }
+
+
+    .pg-0-content{
+        padding-top: 20%;
+    }
+
+
+    .pg-0-content p{
+        font-size: smaller;
+    }
+
+    .pg-01 h1{
+        font-size: 1.2rem;
+    }
+
+    .rectangle-box h2{
+        font-size: 1rem;
+    }
+
+    .rectangle-box p{
+        font-size: small;
+    }
+
+    .rectangle-box img{
+        height: 40vh;
+    }
+
+
+    #pg-02-heading{
+        font-size: 2.5rem;
+    }
+
+    .pg-02 .box{
+        margin-top: 35%;
+        height: 30vh;
+        width: 35vw;
+    }
+
+    .pg-02 .box h1{
+        font-size: large;
+    }
+
+    .pg-02 .box p{
+        font-size: small;
+    }
+
+    .footer-about{
+        font-size: .8rem;
+    }    
+    .footer-content{
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 550px){
+    .services{
+        padding-top: 5%;
+    }
+
+    .rectangle-box{
+        text-align: center;
+        width: 25%;
+    }
+
+    .rectangle-box p{
+        font-size: x-small;
+    }
+
+    .rectangle-box img{
+        width: 25vw;
+    }
+
+    .pg-02 .box{
+        width: 45vw;
+    }
+
+    .pg-02 .box h1{
+        font-size: medium;
+    }
+    
+    .pg-02 .box p{
+        font-size: smaller;
+    }
+
+}
+
+@media (max-width: 425px){    
+
+    .pg-0-content{
+        padding-top: 25%;
+    }
+
+
+    .rectangle-box{
+        width: 40%;
+        text-align: left;
+    }
+
+    .rectangle-box p{
+        font-size: small;
+    }
+
+    .rectangle-box img{
+        height: 40vh;
+        width: 100%;
+    }
+
+    .pg-02 .box{
+        margin-top: 50%;
+        height: 30vh;
+        width: 50vw;
+    }
+
+    #pg-02-heading{
+        font-size: 2rem;
+    }
+
+    .footer-about{
+        font-size: .6rem;
+    }
+    .footer-content{
+        width: 60%;
+    }
+}
+
+@media (max-width: 375px){
+
+    .pg-0-content{
+        margin-top: 15%;
+    }
+    
+    .pg-01{
+        background: url("https://images.pexels.com/photos/10526880/pexels-photo-10526880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    }
+
+    .pg-01 h1{
+        padding-top: 4%;
+    }
+
+    .services{
+        padding-top: 15%;
+        flex-direction: column;
+    }
+
+    .rectangle-box{
+        width: 80vw;
+    }
+
+    .rectangle-box img{
+        display: none;
+    }
+
+    .pg-02 .box{
+        margin-top: 70%;
+        height: 25vh;
+        width: 100vw;
+    }
+
+    .pg-02 .box p{
+        font-size: x-small;
+    }
+
+}    
+
