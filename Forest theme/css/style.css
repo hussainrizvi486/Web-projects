@@ -26,25 +26,25 @@ body {
 
 /* Vertical NAVBAR */
 
-.vertical-nav{
+.vertical-nav {
     height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(20, 108, 73, .8);
+    background-color: rgb(8 46 31 / 50%);
     position: fixed;
     display: none;
 }
 
-.vertical-nav h1{
+.vertical-nav h1 {
     margin: 1% 2%;
     font-size: x-large;
-    color: rgb(154, 255, 154);
+    color: #fff;
 }
 
 
-#menu{
+#menu {
     margin: 1% 2%;
     padding: 0%;
     display: flex;
@@ -54,17 +54,17 @@ body {
 }
 
 
-#menu img{
+#menu img {
     width: 20%;
     padding-right: 3%;
 }
 
-.slider-go{
+.slider-go {
     transform: translateY(-600px);
     transition: ease-out 300ms;
 }
 
-.slider{
+.slider {
     height: auto;
     width: 100%;
     padding: 5% 0%;
@@ -76,12 +76,13 @@ body {
     background-color: rgba(36, 106, 73, .8);
     transition: ease-in 300ms;
 }
-.slider li{
+
+.slider li {
     list-style: none;
     padding: 2% 0%;
 }
 
-.slider li a{
+.slider li a {
     color: white;
 }
 
@@ -92,28 +93,28 @@ body {
 
 /* Horizontal NAVBAR */
 
-.horizontal-nav{
+.horizontal-nav {
     width: 100%;
-    background-color: rgba(20, 108, 73, .8);
+    background-color: rgb(8 46 31 / 50%);
     position: fixed;
     height: 10vh;
 }
 
-.horizontal-nav nav{
+.horizontal-nav nav {
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 
 .horizontal-nav nav h1 {
     margin: .8% 2%;
     font-size: xx-large;
-    color: rgb(154, 255, 154);
 }
 
 .horizontal-nav nav ul {
     display: flex;
-    align-items: center;
 }
 
 .horizontal-nav ul li {
@@ -122,13 +123,12 @@ body {
 
 .horizontal-nav li a {
     text-decoration: none;
-    padding:0% 1rem;
+    padding: 0% 1rem;
     font-family: 'Righteous', cursive;
     color: #ffff;
 }
 
 /* Horizontal NAVBAR ENDS */
-
 
 
 
